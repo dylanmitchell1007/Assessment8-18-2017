@@ -1,5 +1,5 @@
 ﻿  App.cpp
-c:\users\s178067\documents\github\assessment\bootstrap\camera.h(9): warning C4099: 'Camera': type name first seen using 'struct' now seen using 'class'
-  c:\users\s178067\documents\github\assessment\bootstrap\camera.h(7): note: see declaration of 'Camera'
+c:\users\s178067\documents\github\assessment\bootstrap\camera.h(10): warning C4099: 'Camera': type name first seen using 'struct' now seen using 'class'
+  c:\users\s178067\documents\github\assessment\bootstrap\camera.h(8): note: see declaration of 'Camera'
   Bootstrap.vcxproj -> C:\Users\s178067\Documents\GitHub\Assessment\Debug\Bootstrap.exe
   Bootstrap.vcxproj -> C:\Users\s178067\Documents\GitHub\Assessment\Debug\Bootstrap.pdb (Partial PDB)

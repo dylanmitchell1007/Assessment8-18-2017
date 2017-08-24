@@ -16,5 +16,7 @@ protected:
 	Camera* m_camera;
 	GLFWwindow* _window;
 	GLFWmonitor* _monitor;
+
+	
 };
 

@@ -12,7 +12,7 @@ public:
 	Camera();
 	~Camera();
 	void update(float deltatime = 0);
-	void setPerspective(float FOV, float AR, float near, float far);
+	void setPerspective(float FOV, float AR, float m_near, float m_far);
 	void setLookAt(glm::vec3 eye, glm::vec3 center, glm::vec3 up);
 	void setPosition(glm::vec3 position);
 	glm::mat4 getWorldTransform();
@@ -22,7 +22,6 @@ public:
 
 private:
 	void updateProjectionViewTransform();
-
 	glm::mat4 worldTransform;
 	glm::mat4 viewTransform;
 	glm::mat4 projectionTransform;
